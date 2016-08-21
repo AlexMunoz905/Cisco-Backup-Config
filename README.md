@@ -4,7 +4,7 @@ This is a quick script to get basic info from Cisco Switches.
 
 * running config
 * vlans
-* vtp
+* version
 
 File name is saved as the hostname.
 
