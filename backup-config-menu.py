@@ -6,19 +6,19 @@ print("1. IOS Router")
 print("2. IOS Switch")
 print("3. NxOS")
 print("4. ASA")
-# print("5. WLC")
+print("5. WLC")
 
 OurInput = input("Choose your number: ")
 
 if OurInput == "1":
-    import backup-config-Router
+    import Router
 elif OurInput == "2":
-    import backup-config-Switch
+    import Switch
 elif OurInput == "3":
-    import backup-config-nxos
+    import NXOS
 elif OurInput == "4":
-    import backup-config-asa
+    import ASA
 elif OurInput == "5":
-    import backup-config-wlc
+    import WLC
 else:
     print("Please print a correct input")

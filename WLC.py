@@ -3,7 +3,7 @@
 
 # Requires netmiko library to be installed
 
-# import the modules you want to call        
+# import the modules you want to call
 import netmiko, getpass
 
 # grab some info from the user
